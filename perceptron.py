@@ -45,6 +45,7 @@ def main():
     # print(y_train)
     # X_train_01_subset = X_train[(y_train == 0) | (y_train == 1)]
     # y_train_01_subset = y_train[(y_train == 0) | (y_train == 1)]
+    #
     # w perceptronie wyjście jest albo 1 albo -1    
     # y_train_01_subset[(y_train_01_subset == 0)] = -1
     ppn = learn_class_with_perceptron(X, y0, 0)
@@ -102,19 +103,19 @@ def main():
     # print(data_to_test)
     # print(ppn.predict(data_to_test))
 
-    is_found = 0
+    corresponding_classes = 0
     flower_type = -1
     if ppn.predict(data_to_test) == 1:
-        is_found += 1
+        corresponding_classes += 1
         flower_type = 0
     if ppn1.predict(data_to_test) == 1:
-        is_found += 1
+        corresponding_classes += 1
         flower_type = 1
     if ppn2.predict(data_to_test) == 1:
-        is_found += 1
+        corresponding_classes += 1
         flower_type = 2
 
-    if is_found != 1:
+    if corresponding_classes != 1:
         print('not found')
     else:
         print(f'found: {flower_type}')
