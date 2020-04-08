@@ -29,7 +29,6 @@ class Perceptron(object):
 
     def predict(self, X):
         test = np.where(self.net_input(X) >= 0.0, 1, -1)
-        # print(f"test{test}")
         return test
 
 
