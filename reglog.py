@@ -62,6 +62,8 @@ def main():
     print(f'found: {probabilities.index(max(probabilities))}')
 
 
+
+
 def learn_class_with_regression(X, y, the_class_to_learn):
     y[(y != the_class_to_learn)] = -3  #tymczasowo -3
     y[y == the_class_to_learn] = 1
