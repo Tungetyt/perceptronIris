@@ -34,65 +34,29 @@ class LogisticRegressionGD(object):
         return np.where(self.net_input(X) >= 0.0, 1, 0)
 
 
-
-
 def main():
     iris = datasets.load_iris()
     X = iris.data[:, [1, 3]]
     y = iris.target
 
     mk = Multiklass()
-    mk.fit(X,y)
+    mk.fit(X, y)
 
     for xi, target in zip(X, y):
         prediction = mk.predict(xi)
-        # print(prediction)
         if prediction == target:
             print(f'{prediction} {target} ok')
         else:
             print(f'{prediction} {target} not ok')
 
-
-    print(mk.calc_probabilities(X))
-
-    # y0 = y.copy()
-    # y1 = y.copy()
-    # y2 = y.copy()
-    # lrgd = learn_class_with_regression(X, y0, 0)
-    # lrgd1 = learn_class_with_regression(X, y1, 1)
-    # lrgd2 = learn_class_with_regression(X, y2, 2)
-    # print('give me x')
-    # x_to_test = float(input())
-    # print('give me x1')
-    # x1_to_test = float(input())
-    # data_to_test = [[x_to_test, x1_to_test]]
-    #
-    # probabilities = calc_probabilities(lrgd, lrgd1, lrgd2, data_to_test)
-    # print(probabilities)
-    #
-    # print(f'found: {probabilities.index(max(probabilities))}')
-
-
-
-
-# def learn_class_with_regression(X, y, the_class_to_learn):
-#     y[(y != the_class_to_learn)] = -3  #tymczasowo -3
-#     y[y == the_class_to_learn] = 1
-#     y[y == -3] = 0    #teraz już 0
-#     lrgd = LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1)
-#     lrgd.fit(X, y)
-#     return lrgd
-#
-#
-# def calc_probabilities(lrgd, lrgd1, lrgd2, data_to_test):
-#     return [lrgd.activation(lrgd.net_input(data_to_test)),
-#             lrgd1.activation(lrgd1.net_input(data_to_test)),
-#             lrgd2.activation(lrgd2.net_input(data_to_test))]
+    mk.show_probabilities(mk, X)
 
 
 class Multiklass:
     def __init__(self):
-        self.lrgds = [LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1), LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1), LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1)]
+        self.lrgds = [LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1),
+                      LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1),
+                      LogisticRegressionGD(eta=0.05, n_iter=1000, random_state=1)]
 
     def fit(self, X, y):
         i = 0
@@ -102,11 +66,11 @@ class Multiklass:
             y_norm[y_norm == i] = 1
             y_norm[y_norm == -3] = 0  # teraz już 0
             lrgd.fit(X, y_norm)
-            print(y_norm)
             i = i + 1
 
     def predict(self, data_to_test):
         probabilities = self.calc_probabilities(data_to_test)
+        # print(f'probabilities{probabilities}')
         maximus = max(probabilities)
         return probabilities.index(maximus)
 
@@ -116,7 +80,15 @@ class Multiklass:
             probabilities.append(lrgd.activation(lrgd.net_input(data_to_test)))
         return probabilities
 
+    def show_probabilities(self, mk, X):
+        ps = mk.calc_probabilities(X)
+
+        for i in range(len(ps[0])):
+            # print('{:>8} {:>8} {:>8}'.format(ps[0][i], ps[1][i], ps[2][i]))
+            print(            "{:.8f} {:.8f} {:.8f}".format(ps[0][i], ps[1][i], ps[2][i]))
+
+            # print(f"first: {ps[0][i]}, second: {ps[1][i]}, third: {ps[2][i]}")
+
+
 if __name__ == '__main__':
     main()
-
-
