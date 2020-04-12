@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eedc7fc3-859d-40e6-91e7-55fde1286f48" name="Default Changelist" comment="" />
+    <list default="true" id="eedc7fc3-859d-40e6-91e7-55fde1286f48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/perceptronIris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/perceptronIris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../regression/02c_regresja.py" beforeDir="false" afterPath="$PROJECT_DIR$/../regression/02c_regresja.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../regression" />
   </component>
   <component name="ProjectId" id="1a5V84iGXAFhutUHozbHPnm88hl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,7 +28,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.reglog">
+  <component name="RunManager" selected="Python.02c_regresja">
+    <configuration name="02c_regresja" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="regression" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../regression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../regression/02c_regresja.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="perceptronIris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02c_regresja" />
         <item itemvalue="Python.reglog" />
         <item itemvalue="Python.perceptron" />
         <item itemvalue="Python.reglog (1)" />
@@ -113,6 +142,7 @@
       <workItem from="1586355705094" duration="12566000" />
       <workItem from="1586425090361" duration="2042000" />
       <workItem from="1586537971857" duration="5361000" />
+      <workItem from="1586630477940" duration="8491000" />
     </task>
     <servers />
   </component>
@@ -124,34 +154,35 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="538" y="47" key="#perceptron/62.0.1474.864@62.0.1474.864" timestamp="1586025318880" />
-    <state width="1431" height="313" key="GridCell.Tab.0.bottom" timestamp="1586563076064">
+    <state width="1431" height="204" key="GridCell.Tab.0.bottom" timestamp="1586641191966">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="313" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1586563076064" />
-    <state width="1431" height="313" key="GridCell.Tab.0.center" timestamp="1586563076064">
+    <state width="1431" height="204" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1586641191966" />
+    <state width="1431" height="204" key="GridCell.Tab.0.center" timestamp="1586641191963">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="313" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1586563076064" />
-    <state width="1431" height="313" key="GridCell.Tab.0.left" timestamp="1586563076064">
+    <state width="1431" height="204" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1586641191963" />
+    <state width="1431" height="204" key="GridCell.Tab.0.left" timestamp="1586641191962">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="313" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1586563076064" />
-    <state width="1431" height="313" key="GridCell.Tab.0.right" timestamp="1586563076064">
+    <state width="1431" height="204" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1586641191962" />
+    <state width="1431" height="204" key="GridCell.Tab.0.right" timestamp="1586641191965">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="313" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1586563076064" />
+    <state width="1431" height="204" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1586641191965" />
     <state x="308" y="75" key="SettingsEditor" timestamp="1586025347209">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="75" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1586025347209" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586538054477">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586630479100">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1586538054477" />
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1586630479100" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/perceptronIris$reglog__1_.coverage" NAME="reglog (1) Coverage Results" MODIFIED="1586109523111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/perceptronIris$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1586373253573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/perceptronIris$reglog.coverage" NAME="reglog Coverage Results" MODIFIED="1586556889956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/perceptronIris$02c_regresja.coverage" NAME="02c_regresja Coverage Results" MODIFIED="1586641191950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../regression" />
+    <SUITE FILE_PATH="coverage/perceptronIris$reglog.coverage" NAME="reglog Coverage Results" MODIFIED="1586630483888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

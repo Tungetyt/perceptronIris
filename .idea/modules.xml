@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/perceptronIris.iml" filepath="$PROJECT_DIR$/.idea/perceptronIris.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../regression/.idea/regression.iml" filepath="$PROJECT_DIR$/../regression/.idea/regression.iml" />
       <module fileurl="file://$PROJECT_DIR$/../rockPaperScissorsMachineLearning/.idea/rockPaperScissorsMachineLearning.iml" filepath="$PROJECT_DIR$/../rockPaperScissorsMachineLearning/.idea/rockPaperScissorsMachineLearning.iml" />
     </modules>
   </component>
