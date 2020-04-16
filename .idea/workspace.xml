@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eedc7fc3-859d-40e6-91e7-55fde1286f48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/perceptronIris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/perceptronIris.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../regression/02c_regresja.py" beforeDir="false" afterPath="$PROJECT_DIR$/../regression/02c_regresja.py" afterDir="false" />
     </list>
@@ -143,6 +140,7 @@
       <workItem from="1586425090361" duration="2042000" />
       <workItem from="1586537971857" duration="5361000" />
       <workItem from="1586630477940" duration="8491000" />
+      <workItem from="1587024891530" duration="1436000" />
     </task>
     <servers />
   </component>
@@ -174,10 +172,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="75" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1586025347209" />
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1586630479100">
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1587024893803">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1586630479100" />
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1587024893803" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/perceptronIris$reglog__1_.coverage" NAME="reglog (1) Coverage Results" MODIFIED="1586109523111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
