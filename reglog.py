@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pylab as plt
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
-from plotka import plot_decision_regions
 
 
 class LogisticRegressionGD(object):
@@ -84,10 +83,7 @@ class Multiklass:
         ps = mk.calc_probabilities(X)
 
         for i in range(len(ps[0])):
-            # print('{:>8} {:>8} {:>8}'.format(ps[0][i], ps[1][i], ps[2][i]))
-            print(            "{:.8f} {:.8f} {:.8f}".format(ps[0][i], ps[1][i], ps[2][i]))
-
-            # print(f"first: {ps[0][i]}, second: {ps[1][i]}, third: {ps[2][i]}")
+            print("{:.8f} {:.8f} {:.8f}".format(ps[0][i], ps[1][i], ps[2][i]))
 
 
 if __name__ == '__main__':
